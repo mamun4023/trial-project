@@ -1,0 +1,40 @@
+
+.today-weather-container{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #ddd;
+	justify-content: center;
+}
+
+.today-detail{
+	height: 350px;
+	width: 300px;
+	margin: 10px;
+	background-color: #3B3B98;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+	box-shadow: inset -1px 6px 34px 6px rgba(0,0,0,0.54);
+}
+.today-detail {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.today-detail h3{
+	margin-top: 5px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.today-detail p{
+	margin: 0;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+.graph-container{
+	max-width: 400px;
+}
